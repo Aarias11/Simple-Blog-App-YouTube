@@ -8,7 +8,7 @@ const Blog = require('./models/blogSchema')
 const app = express()
 
 // connect to mongoDB
-const dbURI = 'mongodb+srv://aarias:test123@custer17.0sdskd7.mongodb.net/BlogDB?retryWrites=true&w=majority'
+const dbURI = 'mongodb+srv://<USERNAME>:<PASSWORD>@custer17.0sdskd7.mongodb.net/<DATABSE>?retryWrites=true&w=majority'
 mongoose
 .connect(dbURI, {
     useNewUrlParser: true,
